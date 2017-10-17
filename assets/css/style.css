@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+/* Base Styles */
+
+body {
+font-family: 'Varela Round', sans-serif;
+line-height: 1.6;
+color: #3a3a3a;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+.wrapper {
+    max-width: 80%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+/* Navigation */
+.name {
+    font-size: 1.25em;
+    margin: 0;
+    float: left;
+    padding-left: 1.5em;
+    padding-top:  .5em;
+}
+
+.main-nav {
+    float: right;
+}
+
+.name a,
+.main-nav a {
+    text-align: center;
+    display: block;
+    padding: 10px 15px;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-header {
+    background-color: dodgerblue;
+    height: 3.5em;
+}
+
+/* Class Specific */
+
+/* Footer */
+
+/* CLEARFIX */
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
